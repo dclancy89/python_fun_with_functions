@@ -1,3 +1,4 @@
+# function for printing even and odd numbers from 1 to num
 def odd_even(num):
 	for x in range(1, num+1):
 		if x % 2 == 0:
@@ -5,12 +6,14 @@ def odd_even(num):
 		else:
 			print "Number is " + str(x) + ". This is an odd number."
 
+# takes a list and multiplies each item by num
 def multiply(l, num = 5):
 	for x in range(len(l)):
 		l[x] *= num
 	return l
 
 
+# hacker challenge
 def layered_multiples(arr):
 	new_array = []
 	for x in arr:
